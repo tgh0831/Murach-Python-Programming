@@ -16,12 +16,12 @@ while choice.lower() == "y":
 
     # get input from the user
     monthly_investment = float(input("Enter monthly investment:\t"))
-    yearly_interest_rate = float(input("Enter yearly interest rate:\t")
+    yearly_interest_rate = float(input("Enter yearly interest rate:\t"))
     years = int(input("Enter number of years:\t\t"))
 
     # convert yearly values to monthly values
     monthly_interest_rate = yearly_interest_rate / 12 / 100
-    months = year * 12
+    months = years * 12
 
     # calculate the future value
     future_value = 0
